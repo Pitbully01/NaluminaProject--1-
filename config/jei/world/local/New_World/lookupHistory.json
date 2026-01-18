@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"twilightforest:charm_of_life_1"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"explorerscompass:explorerscompass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"sophisticatedbackpacks:refill_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:jungle_fence_gate"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

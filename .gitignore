@@ -1,0 +1,48 @@
+# Mod jars are managed via curseforge manifest
+/mods/
+/downloads/
+/lib/
+
+# Runtime logs and crash dumps
+/logs/
+/crash-reports/
+/debug.log
+/debug-*.log
+/latest.log
+/*.log
+/*.gz
+/.mixin.out/
+
+# Client-specific data
+/options.txt
+/optionsof.txt
+/usercache.json
+/usernamecache.json
+/servers.dat
+/servers.dat_old
+/patchouli_data.json
+/shark.jso
+.curseclient
+.command_history.txt
+
+# Worlds, maps, waypoints
+/saves/
+/journeymap/data/
+/journeymap/journeymap.log
+/waypoints/
+/blueprints/
+
+# Generated caches and temp files
+/ESM/
+/moddata/
+/local/
+/patchouli_books/
+/ressourcepacks/
+*.tmp
+*.lck
+
+# Editor/OS noise
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db

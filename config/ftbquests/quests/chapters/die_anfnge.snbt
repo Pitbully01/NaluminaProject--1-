@@ -1,0 +1,136 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "die_anfnge"
+	group: ""
+	id: "46F05ADBFFAD4E2E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "412FB487FD32C582"
+			rewards: [{
+				id: "12C276DCAF227BE1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "74208E40A2970DBB"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["412FB487FD32C582"]
+			id: "3AFDC0FBB7BD7830"
+			rewards: [
+				{
+					count: 4
+					id: "178448B2D496A026"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "13DE04D3861723C7"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61D85C6464AE5598"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3AFDC0FBB7BD7830"]
+			id: "2FBC4EF910DD5215"
+			rewards: [{
+				id: "5A444FB534BB8949"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "187B62F5135F94B8"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2FBC4EF910DD5215"]
+			id: "2B8B620426DFF130"
+			optional: true
+			rewards: [{
+				id: "4DAB1BE9CB6FA37A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1EDD487141F2BEFA"
+				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2FBC4EF910DD5215"]
+			id: "1DDE38D81F03A05A"
+			rewards: [
+				{
+					count: 2
+					id: "3D68E0FD15E3C40D"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					type: "item"
+				}
+				{
+					id: "6BB01DA2580928AD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "45D8FF5D0983037B"
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DDE38D81F03A05A"]
+			id: "7D4902638ECAF644"
+			tasks: [
+				{
+					id: "158D3AD2465CC9D2"
+					item: { count: 1, id: "minecraft:furnace" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4CAA33730757E715"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:cobblestones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.5d
+		}
+	]
+}

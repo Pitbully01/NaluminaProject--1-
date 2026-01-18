@@ -1,0 +1,10 @@
+/time set 0
+/random roll 5
+/random roll 5 2
+/random roll 2
+/random roll
+/random roll 5
+/random roll
+/random roll 6
+/random roll
+/random roll 1
