@@ -22,8 +22,10 @@
 /servers.dat_old
 /patchouli_data.json
 /shark.jso
-.curseclient
-.command_history.txt
+/debug
+curseclient
+command_history.txt
+*.bak
 
 # Worlds, maps, waypoints
 /saves/

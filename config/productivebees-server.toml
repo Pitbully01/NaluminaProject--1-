@@ -110,6 +110,8 @@
 	disableWanderGoal = false
 	#Allow resin bees to encase mobs in amber. With this disabled it's only possible with an amber bee and it's also not as fun.
 	enableResinBeeEncasing = true
+	#Setting this to false will completely disable bee breeding. This overwrites any bee breeding recipes and selfbreed settings in the bee files.
+	allowBeeBreeding = true
 
 ["Bee attributes"]
 	#Number of ticks between attribute improvement attempts while leashed

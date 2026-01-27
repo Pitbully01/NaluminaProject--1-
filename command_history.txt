@@ -8,3 +8,4 @@
 /random roll 6
 /random roll
 /random roll 1
+/kill @e

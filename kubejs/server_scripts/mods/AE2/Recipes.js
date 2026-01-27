@@ -79,7 +79,7 @@ ServerEvents.recipes(naluminaproject => {
             { item: 'ae2:sky_stone_block', count: 4 }
         ],
         'sky_bronze_ingot',
-        { fluid:'minecraft:lava', count: 100}
+        { fluid:'minecraft:lava', amount: 100}
     );
     createCrystalAssemblerRecipe(
         { item: 'megacells:sky_osmium_ingot', count: 8 },
@@ -89,7 +89,7 @@ ServerEvents.recipes(naluminaproject => {
             { item: 'ae2:sky_stone_block', count: 4 }
         ],
         'sky_osmium_ingot',
-        { fluid:'minecraft:lava', count: 100}
+        { fluid:'minecraft:lava', amount: 100}
     );
 
 
@@ -101,7 +101,7 @@ ServerEvents.recipes(naluminaproject => {
     universalPress('appflux:charged_redstone', 'appflux:printed_energy_processor', 'printed_energy_processor')
     universalPress('extendedae:entro_crystal', 'extendedae:concurrent_processor_print', 'concurrent_processor_print')
     universalPress('minecraft:iron_block', 'kubejs:universal_press', 'universal_press_duplicate')
-    universalPress('advanced_ae:quantum_alloy', 'advanced_ae:printed_quantum_processor', 'printed_quantum_processor')
+
 
     const colors = [
         'white', 'yellow', 'orange', 'red', 'pink', 'magenta', 'purple', 'light_blue', 'cyan', 'blue', 'lime', 'green', 'brown', 'light_gray', 'gray', 'black'
@@ -114,8 +114,8 @@ ServerEvents.recipes(naluminaproject => {
         naluminaproject.shapeless(`ae2:${color}_smart_dense_cable`, [`4x ae2:${color}_smart_cable`]).id(`naluminaproject:ae2/${color}_smart_to_dense`);
     });
 
-    naluminaproject.shapeless(` 4x ae2:fluix_covered_cable`,[`ae2:fluix_covered_dense_cable`]).id(`naluminaproject:ae2/dense_to_normal`)
-    naluminaproject.shapeless(` 4x ae2:fluix_smart_cable`,[`ae2:fluix_smart_dense_cable`]).id(`naluminaproject:ae2/smart_dense_to_smart_normal`)
+    naluminaproject.shapeless(`4x ae2:fluix_covered_cable`,[`ae2:fluix_covered_dense_cable`]).id(`naluminaproject:ae2/dense_to_normal`)
+    naluminaproject.shapeless(`4x ae2:fluix_smart_cable`,[`ae2:fluix_smart_dense_cable`]).id(`naluminaproject:ae2/smart_dense_to_smart_normal`)
 
     // duplicating universal press with the circuit slicer for when you used up all your presses
     createCrystalAssemblerRecipe(
